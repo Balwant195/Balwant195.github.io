@@ -46,7 +46,7 @@ ul.custom-bullets {
 
 ul.custom-bullets li{
     position: relative;
-    padding-left: 1.5em; /* Space for custom bullet */
+    padding-left: 40px; /* Space for custom bullet */
     margin-bottom: 5px; /* Increases space between list items */
 }
 
@@ -58,15 +58,15 @@ ul.custom-bullets li{
 
 
 ul.custom-bullets li::before{
-    content: '•'; /* Unicode for bullet character */
-    font-size: 1.2em; /* Adjust size as needed */
+    content: '-'; /* Unicode for bullet character */
+    font-size: 0.5em; /* Adjust size as needed */
     position: absolute;
     left: 0;
     top: 0;
 }
 
 ul.custom-bullets li::before {
-    color: #007bff; /* Default color for bullets */
+    color: #000000; /* Default color for bullets */
 }
 
 
