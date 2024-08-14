@@ -6,59 +6,67 @@ body {
     color: #333;
 }
 
-header {
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin: 5px 0;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 section {
     padding: 20px;
     margin: 0 auto;
     max-width: 800px;
 }
 
+p {
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none; /* Removes default bullets */
+    padding-left: 0; /* Removes default padding */
+    margin: 0;
+}
+
 h2 {
     border-bottom: 2px solid #007bff;
     padding-bottom: 5px;
+    margin-bottom: 20px; /* Space below section headers */
 }
 
 h3 {
     margin-top: 20px;
+    margin-bottom: 10px; /* Space below job titles */
 }
 
-ul {
-    list-style-type: disc; /* Ensures bullet points are visible */
-    padding-left: 20px; /* Adds space for bullets */
-    margin: 10px 0;
+ul.custom-bullets li, ul.custom-bullets-dark li {
+    position: relative;
+    padding-left: 1.5em; /* Space for custom bullet */
+    margin-bottom: 20px; /* Increases space between list items */
 }
 
-ul li {
-    margin-bottom: 20px;
+.custom-list ul li {
+    position: relative;
+    padding-left: 1.5em; /* Space for custom bullet */
+    margin-bottom: 20px; /* Space between list items */
 }
 
-p {
-    margin: 10px 0;
+.custom-list-dark ul li {
+    position: relative;
+    padding-left: 1.5em; /* Space for custom bullet */
+    margin-bottom: 20px; /* Space between list items */
 }
 
-strong {
-    font-weight: bold;
+ul.custom-bullets li::before, ul.custom-bullets-dark li::before {
+    content: '•'; /* Unicode for bullet character */
+    font-size: 1.2em; /* Adjust size as needed */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+ul.custom-bullets li::before {
+    color: #007bff; /* Default color for bullets */
+}
+
+ul.custom-bullets-dark li::before {
+    color: #333; /* Darker color for bullets */
+}
+
+.experience {
+    margin-bottom: 40px; /* Space below the experience section */
 }
