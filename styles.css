@@ -27,11 +27,6 @@ p {
     margin: 20px 0;
 }
 
-ul {
-    /* Removes default bullets */
-    padding-left: 0; /* Removes default padding */
-    margin: 0;
-}
 
 h2 {
     border-bottom: 2px solid #007bff;
@@ -44,7 +39,7 @@ h3 {
     margin-bottom: 10px; /* Space below job titles */
 }
 
-ul.custom-bullets li, ul.custom-bullets-dark li {
+ul.custom-bullets li{
     position: relative;
     padding-left: 1.5em; /* Space for custom bullet */
     margin-bottom: 20px; /* Increases space between list items */
@@ -56,13 +51,8 @@ ul.custom-bullets li, ul.custom-bullets-dark li {
     margin-bottom: 20px; /* Space between list items */
 }
 
-.custom-list-dark ul li {
-    position: relative;
-    padding-left: 1.5em; /* Space for custom bullet */
-    margin-bottom: 20px; /* Space between list items */
-}
 
-ul.custom-bullets li::before, ul.custom-bullets-dark li::before {
+ul.custom-bullets li::before{
     content: '•'; /* Unicode for bullet character */
     font-size: 1.2em; /* Adjust size as needed */
     position: absolute;
@@ -74,9 +64,6 @@ ul.custom-bullets li::before {
     color: #007bff; /* Default color for bullets */
 }
 
-ul.custom-bullets-dark li::before {
-    color: #333; /* Darker color for bullets */
-}
 
 .experience {
     margin-bottom: 40px; /* Space below the experience section */
