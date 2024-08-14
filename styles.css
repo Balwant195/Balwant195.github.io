@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+.header-content {
+    display: inline-block;
+    text-align: center; /* Ensures content inside header-content is also centered */
+}
+
 section {
     padding: 20px;
     margin: 0 auto;
