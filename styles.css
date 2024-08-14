@@ -1,15 +1,25 @@
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
 }
-
-ul {
-    list-style-type: disc; /* Ensures bullet points are visible */
-    padding-left: 20px; /* Adds space for bullets */
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
 }
-
-ul li {
-    margin-bottom: 10px;
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+h2 {
+    color: #333;
 }
