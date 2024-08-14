@@ -5,21 +5,43 @@ body {
     padding: 0;
     color: #333;
 }
+
 header {
     background: #f4f4f4;
     padding: 20px;
     text-align: center;
 }
+
 header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
+
+h1, h2, h3 {
+    color: #333;
+}
+
 section {
     padding: 20px;
     margin: 0 auto;
     max-width: 800px;
 }
-h2 {
-    color: #333;
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
