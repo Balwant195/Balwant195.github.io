@@ -46,8 +46,9 @@ h3 {
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: disc; /* Ensures bullet points are visible */
+    padding-left: 20px; /* Adds space for bullets */
+    margin: 10px 0;
 }
 
 ul li {
