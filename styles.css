@@ -15,6 +15,7 @@ body {
 header {
     background-color: #f4f4f4; /* Optional: Adds a background color for better visibility */
     padding: 20px;
+    text-align: center;
 }
 
 header h1 {
