@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: left; /* Center align text in the body */
+    text-align: left; /* Left align text in the body */
 }
 
 header {
@@ -46,7 +46,7 @@ section {
 
 h2 {
     border-bottom: 2px solid #000; /* Adds a bottom border to section titles for emphasis */
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     margin-bottom: 15px;
 }
 
