@@ -20,10 +20,12 @@ header {
 
 header h1 {
     margin-bottom: 10px; /* Space below the header title */
+    text-align: center;
 }
 
 header p {
     margin: 0; /* Remove default margin */
+    text-align: center;
 }
 
 header a {
