@@ -12,6 +12,11 @@ body {
     text-align: center; /* Left align text in the body */
 }
 
+header img {
+    max-width: 150px; /* Set the maximum width of the image */
+    height: auto; /* Maintain the aspect ratio */
+}
+
 header {
     background-color: #f4f4f4; /* Optional: Adds a background color for better visibility */
     padding: 20px;
