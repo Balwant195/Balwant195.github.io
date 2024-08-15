@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-    max-width: 10px; /* Set the maximum width of the image */
+    max-width: 100px; /* Set the maximum width of the image */
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Remove inline spacing issues */
     margin: 0 auto; /* Center the image horizontally */
