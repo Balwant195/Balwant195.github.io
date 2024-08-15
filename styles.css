@@ -47,7 +47,12 @@ section {
 h2 {
     border-bottom: 2px solid #000; /* Adds a bottom border to section titles for emphasis */
     padding-bottom: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 30px; /* Space above h3 elements */
+    margin-bottom: 10px; /* Space below h3 elements */
 }
 
 ul {
