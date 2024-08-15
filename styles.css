@@ -54,12 +54,15 @@ ul {
     list-style-type: disc; /* Use disc bullets */
     padding-left: 20px; /* Space for bullets */
     margin: 10px 0; /* Margin between list items */
+    text-align: left;
 }
 
 ul li {
     margin-bottom: 5px; /* Space between list items */
+    text-align: left;
 }
 
 p {
     margin: 10px 0; /* Vertical spacing between paragraphs */
+    text-align: left;
 }
