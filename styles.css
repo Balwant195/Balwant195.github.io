@@ -9,12 +9,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center; /* Center align text in the body */
 }
 
 header {
-    text-align: center; /* Centers text horizontally */
-    padding: 20px; /* Adds space around the content */
     background-color: #f4f4f4; /* Optional: Adds a background color for better visibility */
+    padding: 20px;
 }
 
 header h1 {
@@ -34,22 +34,14 @@ header a:hover {
     text-decoration: underline; /* Underline on hover for better accessibility */
 }
 
-.container {
-    display: flex;
-    justify-content: space-between; /* Space between left and right columns */
+main {
+    max-width: 800px;
+    margin: 0 auto; /* Center the main content */
     padding: 20px;
 }
 
-.left-half, .right-half {
-    width: 48%; /* Ensure the columns fit side by side with some space between them */
-}
-
-.left-half {
-    /* No additional styles needed */
-}
-
-.right-half {
-    /* No additional styles needed */
+section {
+    margin-bottom: 40px; /* Space between sections */
 }
 
 h2 {
