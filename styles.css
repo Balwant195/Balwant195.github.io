@@ -20,7 +20,7 @@ header {
 
 header img {
     max-width: 200px; /* Set the maximum width of the image */
-    height: 250px; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
     margin: 5px auto; /* Center the image horizontally */
 }
 
