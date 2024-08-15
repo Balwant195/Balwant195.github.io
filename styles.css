@@ -47,8 +47,7 @@ section {
 h2 {
     border-bottom: 2px solid #000; /* Adds a bottom border to section titles for emphasis */
     padding-bottom: 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 ul {
