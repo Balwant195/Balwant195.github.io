@@ -3,70 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balwant Singh Bisht - Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <header>
-        <h1>Balwant Singh Bisht</h1>
-        <p>GitHub: <a href="https://github.com/Balwant195">Balwant195</a> | Email: <a href="mailto:balwant.bisht149@gmail.com">balwant.bisht149@gmail.com</a> | Phone: +91 8240270141</p>
-    </header>
-    
-    <section id="education">
-        <h2>Education</h2>
-            <p><strong>2021 - 2023:</strong> MTech (Computer Science), Indian Statistical Institute (62.25%)</p>
-            <p><strong>2014 - 2016:</strong> MSc (Physics), SNBNCBS, University of Calcutta (71.20%)</p>
-            <p><strong>2011 - 2014:</strong> BSc (Physics), Kirorimal College, University of Delhi (71.89%)</p>
-    </section>
-    
-    <section id="experience">
-        <h2>Experience</h2>
-        
-        <h3>Associate Data Scientist</h3>
-        <p><strong>Jul 2023 - Mar 2024 | Zee Entertainment Enterprises Limited</strong></p>
-        <ul>
-            <li>Developed a conversational business intelligence service using Azure AI services:</li>
-            <ul>
-                <li>Integrated Azure Speech-to-Text to transcribe user queries into text.</li>
-                <li>Leveraged Azure OpenAI GPT-4 with prompt engineering to generate SQL queries from text inputs.</li>
-                <li>Executed SQL queries in Google BigQuery to retrieve and analyze data.</li>
-                <li>Visualized results and presented them to users in graphical format with key insights.</li>
-            </ul>
-        
-            <li>Built a data ingestion, transformation, and storage pipeline using Apache Airflow and Google BigQuery:</li>
-            <ul>
-                <li>Developed an Airflow DAG to automate the end-to-end ETL pipeline.</li>
-                <li>Ingested data from a REST API, handling various formats and ensuring data quality.</li>
-                <li>Performed data transformation using Python, including cleaning, aggregating, and feature engineering.</li>
-                <li>Stored the transformed data into Google BigQuery, optimizing for performance and cost.</li>
-                <li>Monitored and maintained the workflow, implementing error handling and recovery strategies.</li>
-            </ul>
-        </ul>
-        <p><strong>Technologies:</strong> Python, Airflow, BigQuery, Azure AI Services, Azure OpenAI GPT-4, REST APIs</p>
-        
-        <h3>Post Graduate Teacher (PGT)</h3>
-        <p><strong>Mar 2019 - Sep 2020 | Anand School For Excellence, Hansi</strong></p>
-        <ul>
-            <li>Guided students for model presentation in National Science Exhibition</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Sentiment Analysis on Code-Mix Data</h3>
-        <p><a href="https://github.com/Balwant195/MTech-Dissertation">Link to Project</a></p>
-        <p>Code-Mix Data refers to the text data in which words from multiple languages are used together in a single sentence.</p>
-        <ul>
-            <li>Trained BERT-based Cross-lingual transformer model XLM-RoBERTa on different types of mixed text for sequence classification using TensorFlow.</li>
-            <li>Developed a novel approach to solve the problem of data scarcity for mixed text to achieve state-of-the-art accuracy.</li>
-        </ul>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-            <p><strong>Programming:</strong> Python, SQL</p>
-            <p><strong>Data:</strong> Statistics, Machine Learning, Deep Learning, Pipelines, ETL</p>
-            <p><strong>Cloud:</strong> GCP, Azure</p>
-    </section>
+    <div class="container">
+        <div class="left-half">
+            <section class="education">
+                <h2>Education</h2>
+                <p>2021 - 2023: MTech (Computer Science), Indian Statistical Institute (62.25%)</p>
+                <p>2014 - 2016: MSc (Physics), SNBNCBS, University of Calcutta (71.20%)</p>
+                <p>2011 - 2014: BSc (Physics), Kirorimal College, University of Delhi (71.89%)</p>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <h3>Associate Data Scientist</h3>
+                <p>Jul 2023 - Mar 2024 | Zee Entertainment Enterprises Limited</p>
+                <p>Developed a conversational business intelligence service using Azure AI services:</p>
+                <ul>
+                    <li>Integrated Azure Speech-to-Text to transcribe user queries into text.</li>
+                    <li>Leveraged Azure OpenAI GPT-4 with prompt engineering to generate SQL queries from text inputs.</li>
+                    <li>Executed SQL queries in Google BigQuery to retrieve and analyze data.</li>
+                    <li>Visualized results and presented them to users in graphical format with key insights.</li>
+                </ul>
+                <p>Built a data ingestion, transformation, and storage pipeline using Apache Airflow and Google BigQuery:</p>
+                <ul>
+                    <li>Developed an Airflow DAG to automate the end-to-end ETL pipeline.</li>
+                    <li>Ingested data from a REST API, handling various formats and ensuring data quality.</li>
+                    <li>Performed data transformation using Python, including cleaning, aggregating, and feature engineering.</li>
+                    <li>Stored the transformed data into Google BigQuery, optimizing for performance and cost.</li>
+                    <li>Monitored and maintained the workflow, implementing error handling and recovery strategies.</li>
+                </ul>
+                <p><strong>Technologies:</strong> Python, Airflow, BigQuery, Azure AI Services, Azure OpenAI GPT-4, REST APIs</p>
+                <h3>Post Graduate Teacher (PGT)</h3>
+                <p>Mar 2019 - Sep 2020 | Anand School For Excellence, Hansi</p>
+                <p>Guided students for model presentation in National Science Exhibition</p>
+            </section>
+        </div>
+        <div class="right-half">
+            <section class="projects">
+                <h2>Projects</h2>
+                <h3>Sentiment Analysis on Code-Mix Data</h3>
+                <p>Link to Project</p>
+                <p>Code-Mix Data refers to the text data in which words from multiple languages are used together in a single sentence.</p>
+                <ul>
+                    <li>Trained BERT-based Cross-lingual transformer model XLM-RoBERTa on different types of mixed text for sequence classification using TensorFlow.</li>
+                    <li>Developed a novel approach to solve the problem of data scarcity for mixed text to achieve state-of-the-art accuracy.</li>
+                </ul>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <p><strong>Programming:</strong> Python, SQL</p>
+                <p><strong>Data:</strong> Statistics, Machine Learning, Deep Learning, Pipelines, ETL</p>
+                <p><strong>Cloud:</strong> GCP, Azure</p>
+            </section>
+        </div>
+    </div>
 </body>
 </html>
