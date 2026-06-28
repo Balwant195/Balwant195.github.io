@@ -241,3 +241,63 @@ justify-content:center;
 }
 
 }
+
+.page-title{
+
+padding:70px 10% 20px;
+
+text-align:center;
+
+}
+
+.page-title h1{
+
+font-size:52px;
+
+margin-bottom:10px;
+
+color:#2563eb;
+
+}
+
+.page-title p{
+
+font-size:20px;
+
+color:#666;
+
+}
+
+.content{
+
+background:white;
+
+width:80%;
+
+margin:40px auto;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+.content h2{
+
+margin-bottom:20px;
+
+color:#2563eb;
+
+}
+
+.content p{
+
+margin-bottom:18px;
+
+font-size:18px;
+
+text-align:justify;
+
+}
