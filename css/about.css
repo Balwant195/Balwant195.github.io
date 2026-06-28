@@ -1,6 +1,20 @@
+/* =========================
+   Page Header
+========================= */
+
 .page-header{
 
-    padding:90px 0 60px;
+    max-width:1100px;
+
+    margin:40px auto 30px;
+
+    background:white;
+
+    padding:60px 40px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
 
     text-align:center;
 
@@ -8,7 +22,7 @@
 
 .page-header h1{
 
-    font-size:52px;
+    font-size:48px;
 
     color:#1d4ed8;
 
@@ -18,37 +32,63 @@
 
 .page-header p{
 
-    font-size:22px;
+    font-size:20px;
 
     color:#64748b;
 
 }
 
+
+/* =========================
+   Story
+========================= */
+
 .story{
 
-    max-width:900px;
+    max-width:1100px;
 
     margin:auto;
 
-    padding-bottom:80px;
+    padding-bottom:60px;
 
 }
+
+
+/* Every chapter */
 
 .story section{
 
-    margin-bottom:70px;
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+
+    margin-bottom:35px;
 
 }
+
+
+/* Heading */
 
 .story h2{
 
     color:#1d4ed8;
 
-    font-size:32px;
+    font-size:30px;
 
-    margin-bottom:20px;
+    margin-bottom:18px;
+
+    border-left:6px solid #3b82f6;
+
+    padding-left:12px;
 
 }
+
+
+/* Paragraph */
 
 .story p{
 
@@ -56,13 +96,16 @@
 
     color:#374151;
 
-    line-height:1.95;
+    line-height:1.9;
 
     text-align:justify;
 
-    margin-bottom:20px;
+    margin-bottom:18px;
 
 }
+
+
+/* Quote */
 
 .quote{
 
@@ -76,6 +119,6 @@
 
     padding-left:25px;
 
-    margin:45px 0;
+    margin:30px 0;
 
 }
