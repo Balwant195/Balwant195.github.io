@@ -1,0 +1,45 @@
+@media(max-width:768px){
+
+.nav-container{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+nav ul{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:18px;
+
+}
+
+.page-header h1{
+
+    font-size:38px;
+
+}
+
+.section-title{
+
+    font-size:30px;
+
+}
+
+.story h2{
+
+    font-size:28px;
+
+}
+
+.story p{
+
+    font-size:17px;
+
+}
+
+}
