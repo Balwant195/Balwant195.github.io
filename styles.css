@@ -1,83 +1,229 @@
-/* Reset margin and padding for consistency */
-body, h1, h2 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ---------- Google Font ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Left align text in the body */
+body{
+
+    font-family: 'Inter', sans-serif;
+    background:#f7f9fc;
+    color:#333;
+    line-height:1.7;
 }
 
-header {
-    background-color: #f4f4f4; /* Optional: Adds a background color for better visibility */
-    padding: 20px;
-    text-align: center;
+/* ---------------- Header ---------------- */
+
+header{
+
+    max-width:1100px;
+    margin:40px auto;
+    background:white;
+
+    display:flex;
+    align-items:center;
+    gap:40px;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
 }
 
-header img {
-    max-width: 200px; /* Set the maximum width of the image */
-    height: auto; /* Maintain the aspect ratio */
-    margin: 5px auto; /* Center the image horizontally */
+header img{
+
+    width:180px;
+    height:180px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #3b82f6;
 }
 
-header h1 {
-    margin-bottom: 10px; /* Space below the header title */
-    text-align: center;
+.header-text{
+    flex:1;
 }
 
-header p {
-    margin: 0; /* Remove default margin */
-    text-align: center;
+header h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#1e293b;
+
+    margin-bottom:8px;
 }
 
-header a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007bff; /* Optional: Change link color */
+.subtitle{
+
+    color:#3b82f6;
+
+    font-size:20px;
+
+    margin-bottom:20px;
 }
 
-header a:hover {
-    text-decoration: underline; /* Underline on hover for better accessibility */
+.contact{
+
+    color:#666;
+
+    font-size:15px;
 }
 
-main {
-    max-width: 800px;
-    margin: 0 auto; /* Center the main content */
-    padding: 20px;
+.contact a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+
+    font-weight:500;
 }
 
-section {
-    margin-bottom: 40px; /* Space between sections */
+.contact a:hover{
+
+    text-decoration:underline;
 }
 
-h2 {
-    border-bottom: 2px solid #000; /* Adds a bottom border to section titles for emphasis */
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+/* ---------------- Main ---------------- */
+
+main{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    padding:0 30px 60px;
 }
 
-h3 {
-    margin-top: 30px; /* Space above h3 elements */
-    margin-bottom: 10px; /* Space below h3 elements */
-    text-align: center;
+/* ---------------- Sections ---------------- */
+
+section{
+
+    background:white;
+
+    margin-bottom:30px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
 }
 
-ul {
-    list-style-type: disc; /* Use disc bullets */
-    padding-left: 20px; /* Space for bullets */
-    margin: 10px 0; /* Margin between list items */
-    text-align: left;
+section h2{
+
+    color:#1d4ed8;
+
+    margin-bottom:25px;
+
+    font-size:28px;
+
+    border-left:6px solid #3b82f6;
+
+    padding-left:12px;
 }
 
-ul li {
-    margin-bottom: 5px; /* Space between list items */
-    text-align: left;
+/* ---------------- Cards ---------------- */
+
+.job,
+.project{
+
+    margin-bottom:35px;
 }
 
-p {
-    margin: 10px 0; /* Vertical spacing between paragraphs */
-    text-align: left;
+.job h3,
+.project h3{
+
+    color:#111827;
+
+    margin-bottom:6px;
+
+    font-size:22px;
+}
+
+.date{
+
+    color:#64748b;
+
+    font-style:italic;
+
+    margin-bottom:15px;
+}
+
+ul{
+
+    margin-left:22px;
+
+    margin-top:10px;
+}
+
+li{
+
+    margin-bottom:8px;
+}
+
+/* ---------------- Skills ---------------- */
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+}
+
+.skill-box{
+
+    background:#eff6ff;
+
+    border-radius:10px;
+
+    padding:20px;
+}
+
+.skill-box h4{
+
+    margin-bottom:10px;
+
+    color:#1d4ed8;
+}
+
+/* ---------------- Links ---------------- */
+
+a{
+
+    color:#2563eb;
+
+    text-decoration:none;
+}
+
+a:hover{
+
+    text-decoration:underline;
+}
+
+/* ---------------- Mobile ---------------- */
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+text-align:center;
+}
+
+header img{
+
+margin-bottom:15px;
+}
+
 }
